@@ -5,8 +5,14 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
-    public float damage = 10f;
+    public int bulletsPerMag = 30;
+    public int bulletsLeft = 0;
+    //public Transform shootPoint;
     public Camera fpscam;
+    //public ParticleSystem muzzleshot;
+    public float fireRate = 0.1f;
+    public float damage = 10f;
+    float fireTimer;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,15 +22,20 @@ public class Shoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButton("Fire1"))
         {
             ShootBullet();
         }
+
+        if (fireTimer < fireRate)
+            fireTimer += Time.deltaTime;
     }
 
     private void ShootBullet()
     {
+        //muzzleshot.Play();
         RaycastHit hit;
+        Debug.Log("Shot fired!");
         if (Physics.Raycast(fpscam.transform.position, fpscam.transform.forward, out hit))
         {
             Debug.Log(hit.transform.name);
