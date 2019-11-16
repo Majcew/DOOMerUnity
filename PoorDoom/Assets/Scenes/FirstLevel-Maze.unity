@@ -62054,12 +62054,12 @@ PrefabInstance:
     - target: {fileID: 3471582212849694647, guid: 5756f5234cd08d7468631db56d5709ad,
         type: 3}
       propertyPath: playerWalkingSpeed
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3471582212849694647, guid: 5756f5234cd08d7468631db56d5709ad,
         type: 3}
       propertyPath: playerRunningSpeed
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3471582212849694647, guid: 5756f5234cd08d7468631db56d5709ad,
         type: 3}
