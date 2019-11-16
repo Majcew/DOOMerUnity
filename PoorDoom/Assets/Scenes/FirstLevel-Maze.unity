@@ -3851,10 +3851,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: -2.145141e-37
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -3878,6 +3874,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -5102,10 +5102,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: -8.706787
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -5129,6 +5125,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -5550,10 +5550,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -5577,6 +5573,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -6157,10 +6157,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -6184,6 +6180,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -7354,10 +7354,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -7381,6 +7377,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -7836,46 +7836,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6165007866275025891, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.374
-      objectReference: {fileID: 0}
-    - target: {fileID: 6165007866275025891, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -20.181
-      objectReference: {fileID: 0}
-    - target: {fileID: 5150271313382194077, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.374
-      objectReference: {fileID: 0}
-    - target: {fileID: 5150271313382194077, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -20.828
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856224974534518949, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.374
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856224974534518949, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -19.184
-      objectReference: {fileID: 0}
-    - target: {fileID: 7701821027968668510, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.869
-      objectReference: {fileID: 0}
-    - target: {fileID: 7701821027968668510, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -24.189
-      objectReference: {fileID: 0}
     - target: {fileID: 1788458520011250524, guid: f43960e6ba45e4c40a6fc82192cab00d,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7950,6 +7910,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165007866275025891, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165007866275025891, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.181
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150271313382194077, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150271313382194077, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.828
+      objectReference: {fileID: 0}
+    - target: {fileID: 3856224974534518949, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 3856224974534518949, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -19.184
+      objectReference: {fileID: 0}
+    - target: {fileID: 7701821027968668510, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.869
+      objectReference: {fileID: 0}
+    - target: {fileID: 7701821027968668510, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.189
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f43960e6ba45e4c40a6fc82192cab00d, type: 3}
@@ -13519,10 +13519,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 1.0000002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -13546,6 +13542,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -15582,10 +15582,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -15609,6 +15605,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -15782,16 +15782,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5160154955597898216, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.374
-      objectReference: {fileID: 0}
-    - target: {fileID: 5160154955597898216, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -24.217
-      objectReference: {fileID: 0}
     - target: {fileID: 1788458520011250524, guid: f43960e6ba45e4c40a6fc82192cab00d,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15866,6 +15856,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160154955597898216, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160154955597898216, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.217
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f43960e6ba45e4c40a6fc82192cab00d, type: 3}
@@ -16380,10 +16380,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -16407,6 +16403,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -16840,10 +16840,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 1.4089e-41
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -16867,6 +16863,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -17907,10 +17907,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -17934,6 +17930,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -19101,10 +19101,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0.99260235
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -19128,6 +19124,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -19800,10 +19800,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -19827,6 +19823,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -21500,10 +21500,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -21527,6 +21523,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -22519,10 +22519,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: -0.00000023841858
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -22546,6 +22542,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -23297,10 +23297,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -23324,6 +23320,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -26036,10 +26036,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 1.39e-43
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -26063,6 +26059,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -26643,10 +26643,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0.0000014587332
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -26670,6 +26666,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -27250,10 +27250,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0.0000001192093
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -27277,6 +27273,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -27486,10 +27486,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -27513,6 +27509,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -28093,10 +28093,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: NaN
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -28120,6 +28116,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -32905,10 +32905,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: NaN
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -32932,6 +32928,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -33833,10 +33833,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0.0000001192093
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -33860,6 +33856,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -33980,10 +33980,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 5.38e-43
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -34007,6 +34003,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -36904,16 +36904,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5150271313382194077, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.374
-      objectReference: {fileID: 0}
-    - target: {fileID: 5150271313382194077, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -24.222
-      objectReference: {fileID: 0}
     - target: {fileID: 1788458520011250524, guid: f43960e6ba45e4c40a6fc82192cab00d,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -36988,6 +36978,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150271313382194077, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150271313382194077, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.222
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f43960e6ba45e4c40a6fc82192cab00d, type: 3}
@@ -38172,16 +38172,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6305668405343165042, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.374
-      objectReference: {fileID: 0}
-    - target: {fileID: 6305668405343165042, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -24.182
-      objectReference: {fileID: 0}
     - target: {fileID: 5686484908843519905, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -38527,6 +38517,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 6305668405343165042, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305668405343165042, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.182
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b30ec55fa42e7ed4697c45f4efe6b72f, type: 3}
 --- !u!1 &1307040034
@@ -38824,10 +38824,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: -0.0000001192093
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -38851,6 +38847,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -41878,21 +41878,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -24.19
       objectReference: {fileID: 0}
-    - target: {fileID: 1435753133610580976, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.3641
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133610580976, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 8.321
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133610580976, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -24.19
-      objectReference: {fileID: 0}
     - target: {fileID: 1435753132852237521, guid: ad38d2b9513a20647861e9816dafdee9,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -42138,6 +42123,21 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 1435753133610580976, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.3641
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133610580976, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.321
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133610580976, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.19
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad38d2b9513a20647861e9816dafdee9, type: 3}
 --- !u!1001 &1460894393
@@ -42251,10 +42251,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 1.0000004
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -42278,6 +42274,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -45046,10 +45046,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -45073,6 +45069,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -45226,14 +45226,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 1.0000004
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: IntensityLight
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -45257,6 +45249,14 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: IntensityLight
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -46521,10 +46521,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -46548,6 +46544,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -48706,10 +48706,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 1.05e-43
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -48733,6 +48729,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -50085,10 +50085,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -50112,6 +50108,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -50232,10 +50232,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -50259,6 +50255,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -50379,10 +50379,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 89
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -50406,6 +50402,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -51702,10 +51702,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: -2.3726522e-24
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -51729,6 +51725,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -52711,10 +52711,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: -4.5501903e+13
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -52738,6 +52734,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -53536,10 +53536,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 4.424891e+37
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -53563,6 +53559,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -53959,10 +53959,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 89
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -53986,6 +53982,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -55991,10 +55991,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -56018,6 +56014,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -57541,10 +57541,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -57568,6 +57564,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -58051,36 +58051,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1682337081974694035, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.374
-      objectReference: {fileID: 0}
-    - target: {fileID: 1682337081974694035, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -20.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 5160154955597898216, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.374
-      objectReference: {fileID: 0}
-    - target: {fileID: 5160154955597898216, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -20.817
-      objectReference: {fileID: 0}
-    - target: {fileID: 3849180179350393558, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.374
-      objectReference: {fileID: 0}
-    - target: {fileID: 3849180179350393558, guid: f43960e6ba45e4c40a6fc82192cab00d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -18.731
-      objectReference: {fileID: 0}
     - target: {fileID: 1788458520011250524, guid: f43960e6ba45e4c40a6fc82192cab00d,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -58155,6 +58125,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160154955597898216, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160154955597898216, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.817
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682337081974694035, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682337081974694035, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849180179350393558, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849180179350393558, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18.731
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f43960e6ba45e4c40a6fc82192cab00d, type: 3}
@@ -60093,10 +60093,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -60120,6 +60116,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -61027,10 +61027,6 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.y
       value: -1.3025044e-10
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -61054,6 +61050,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -61652,91 +61652,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1435753133535462699, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.9222
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133535462699, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.501
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133535462699, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 27.277
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133199771359, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 24.137
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133199771359, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.501
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133199771359, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 7.9659
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133354290675, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.8692
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133354290675, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -24.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133597133036, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.3741
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133597133036, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 8.321
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133597133036, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -24.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753134324675071, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.8691
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753134324675071, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 8.826
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753134324675071, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753134324675071, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -24.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133168303611, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435753133168303611, guid: ad38d2b9513a20647861e9816dafdee9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -24.193
-      objectReference: {fileID: 0}
     - target: {fileID: 1435753132852237521, guid: ad38d2b9513a20647861e9816dafdee9,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -61982,6 +61897,91 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 1435753133535462699, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.9222
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133535462699, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.501
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133535462699, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133199771359, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.137
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133199771359, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.501
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133199771359, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.9659
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133354290675, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.8692
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133354290675, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133597133036, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.3741
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133597133036, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.321
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133597133036, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753134324675071, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.8691
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753134324675071, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.826
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753134324675071, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753134324675071, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133168303611, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435753133168303611, guid: ad38d2b9513a20647861e9816dafdee9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.193
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad38d2b9513a20647861e9816dafdee9, type: 3}
 --- !u!1001 &3471582214456432872
@@ -62054,17 +62054,17 @@ PrefabInstance:
     - target: {fileID: 3471582212849694647, guid: 5756f5234cd08d7468631db56d5709ad,
         type: 3}
       propertyPath: playerWalkingSpeed
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3471582212849694647, guid: 5756f5234cd08d7468631db56d5709ad,
         type: 3}
       propertyPath: playerRunningSpeed
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3471582212849694647, guid: 5756f5234cd08d7468631db56d5709ad,
         type: 3}
       propertyPath: jumpStrength
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3471582212444989484, guid: 5756f5234cd08d7468631db56d5709ad,
         type: 3}
