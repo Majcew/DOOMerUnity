@@ -44,6 +44,13 @@ public class Shoot : MonoBehaviour
             {
                 target.TakeDamage(damage);
             }
+
+            Debug.Log(hit.transform.name);
+            EnemyHealth enemyHealth = hit.transform.GetComponent<EnemyHealth>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(damage);
+            }
         }
     }
 }
