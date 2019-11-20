@@ -13,6 +13,8 @@ public class Shoot : MonoBehaviour
     public float fireRate = 0.1f;
     public float damage = 10f;
     float fireTimer;
+    public AudioSource audio;
+    public AudioClip shootingsound;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,18 +24,18 @@ public class Shoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("Fire1"))
+        fireTimer += Time.deltaTime;
+        if (Input.GetButton("Fire1") && fireTimer > fireRate)
         {
             ShootBullet();
+            fireTimer = 0;
         }
-
-        if (fireTimer < fireRate)
-            fireTimer += Time.deltaTime;
     }
+
 
     private void ShootBullet()
     {
-        //muzzleshot.Play();
+        audio.PlayOneShot(shootingsound);
         RaycastHit hit;
         Debug.Log("Shot fired!");
         if (Physics.Raycast(fpscam.transform.position, fpscam.transform.forward, out hit))
