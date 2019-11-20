@@ -631,7 +631,7 @@ MonoBehaviour:
   bulletsPerMag: 30
   bulletsLeft: 0
   fpscam: {fileID: 3471582214062265115}
-  fireRate: 0.25
+  fireRate: 0.175
   damage: 15
   audio: {fileID: 3607626384249239588}
   shootingsound: {fileID: 8300000, guid: acae6ae2dfb11a74ca96df86ae1590fd, type: 3}
