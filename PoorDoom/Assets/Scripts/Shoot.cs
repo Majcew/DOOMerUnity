@@ -2,11 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Shoot : MonoBehaviour
 {
     public int bulletsPerMag = 30;
-    public int bulletsLeft = 0;
+    public int bulletsLeft = 120;
+    public int bulletsInMag = 30;
+    public Text ammoinmagText;
+    public Text overallammoText;
     //public Transform shootPoint;
     public Camera fpscam;
     //public ParticleSystem muzzleshot;
@@ -18,7 +22,13 @@ public class Shoot : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        ShowAmmoInMag();
+        ShowAmmoLeft();
+    }
+
+    private void ShowAmmoLeft()
+    {
+        overallammoText.text = bulletsLeft.ToString();
     }
 
     // Update is called once per frame
@@ -30,29 +40,60 @@ public class Shoot : MonoBehaviour
             ShootBullet();
             fireTimer = 0;
         }
+        if(Input.GetKey("r") && bulletsInMag < bulletsPerMag)
+        {
+            ReloadMag();
+        }
     }
 
 
     private void ShootBullet()
     {
-        audio.PlayOneShot(shootingsound);
-        RaycastHit hit;
-        Debug.Log("Shot fired!");
-        if (Physics.Raycast(fpscam.transform.position, fpscam.transform.forward, out hit))
+        if (bulletsInMag != 0)
         {
-            Debug.Log(hit.transform.name);
-            Target target = hit.transform.GetComponent<Target>();
-            if(target != null)
+            bulletsInMag--;
+            audio.PlayOneShot(shootingsound);
+            RaycastHit hit;
+            if (Physics.Raycast(fpscam.transform.position, fpscam.transform.forward, out hit))
             {
-                target.TakeDamage(damage);
-            }
+                Debug.Log(hit.transform.name);
+                Target target = hit.transform.GetComponent<Target>();
+                if (target != null)
+                {
+                    target.TakeDamage(damage);
+                }
 
-            Debug.Log(hit.transform.name);
-            EnemyHealth enemyHealth = hit.transform.GetComponent<EnemyHealth>();
-            if (enemyHealth != null)
-            {
-                enemyHealth.TakeDamage(damage);
+                Debug.Log(hit.transform.name);
+                EnemyHealth enemyHealth = hit.transform.GetComponent<EnemyHealth>();
+                if (enemyHealth != null)
+                {
+                    enemyHealth.TakeDamage(damage);
+                }
             }
+            ShowAmmoInMag();
         }
+    }
+    private void ReloadMag()
+    {
+        int amountToReload = bulletsPerMag - bulletsInMag;
+        if (bulletsLeft <= amountToReload && bulletsLeft != 0)
+        {
+            bulletsInMag += amountToReload;
+            bulletsLeft = 0;
+            ShowAmmoInMag();
+            ShowAmmoLeft();
+        }
+        else if(bulletsLeft!=0)
+        {
+            bulletsInMag += amountToReload;
+            bulletsLeft -= amountToReload;
+            ShowAmmoInMag();
+            ShowAmmoLeft();
+        }
+    }
+
+    private void ShowAmmoInMag()
+    {
+        ammoinmagText.text = bulletsInMag.ToString() + "/";
     }
 }
