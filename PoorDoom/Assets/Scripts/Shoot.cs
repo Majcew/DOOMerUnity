@@ -78,7 +78,7 @@ public class Shoot : MonoBehaviour
         int amountToReload = bulletsPerMag - bulletsInMag;
         if (bulletsLeft <= amountToReload && bulletsLeft != 0)
         {
-            bulletsInMag += amountToReload;
+            bulletsInMag += bulletsLeft;
             bulletsLeft = 0;
             ShowAmmoInMag();
             ShowAmmoLeft();
