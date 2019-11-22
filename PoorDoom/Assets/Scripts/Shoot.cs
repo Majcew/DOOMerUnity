@@ -69,6 +69,13 @@ public class Shoot : MonoBehaviour
                 {
                     enemyHealth.TakeDamage(damage);
                 }
+
+                WoodenChestController woodenChestController = hit.transform.GetComponent<WoodenChestController>();
+                if (woodenChestController != null)
+                {
+                    woodenChestController.TakeDamage(damage);
+                }
+
             }
             ShowAmmoInMag();
         }
