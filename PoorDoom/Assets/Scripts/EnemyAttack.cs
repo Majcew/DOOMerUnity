@@ -51,7 +51,7 @@ public class EnemyAttack : MonoBehaviour
         {
             Attack();
         }
-        if (playerHealth.currentHealth <= 0)
+        if (playerHealth.health <= 0)
         {
             //event do zmianyyy animacji
             anim.SetTrigger("PlayerDead");
@@ -63,7 +63,7 @@ public class EnemyAttack : MonoBehaviour
         timer = 0f;
         //event do zmiany animacji
         anim.SetTrigger("AttackPlayer");
-        if(playerHealth.currentHealth > 0)
+        if(playerHealth.health > 0)
         {
             playerHealth.TakeDamage(attackDamage);
         }

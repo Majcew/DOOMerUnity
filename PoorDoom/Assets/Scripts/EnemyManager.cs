@@ -17,7 +17,7 @@ public class EnemyManager : MonoBehaviour
     // Update is called once per frame
     void Spawn()
     {
-        if (playerHealth.currentHealth <= 0)
+        if (playerHealth.health <= 0)
             return;
         int spawnPointIndex = Random.Range(0, spawnPoints.Length);
         Instantiate(enemy, spawnPoints[spawnPointIndex].position,
