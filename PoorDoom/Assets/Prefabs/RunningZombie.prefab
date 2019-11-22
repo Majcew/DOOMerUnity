@@ -453,7 +453,7 @@ GameObject:
   - component: {fileID: 1055314321052887230}
   - component: {fileID: 1055314321052887207}
   m_Layer: 0
-  m_Name: RunningZombie (1)
+  m_Name: RunningZombie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -657,7 +657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b925572a5c56606690fe090cee2b2c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 200
+  startingHealth: 60
   currentHealth: 0
   sinkSpeed: 2.5
   deathClip: {fileID: 8300000, guid: 271dc4ec6281315b2be6daf4fd0cd73e, type: 3}
@@ -671,7 +671,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
