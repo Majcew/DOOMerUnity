@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 379718852739412602}
   m_Layer: 0
-  m_Name: diamond
+  m_Name: Diamond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 4629626227185995977}
   - component: {fileID: 4629626227185995991}
   - component: {fileID: 4629626227185995979}
+  - component: {fileID: 2786544857516257584}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -212,5 +213,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4cdccbc10e28f74a8feb7ad3959d237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2786544857516257584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7138798319746360820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd1e8bec5f47f48babd4aa2932bd3b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
