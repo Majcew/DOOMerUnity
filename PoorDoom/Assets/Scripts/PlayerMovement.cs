@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour {
     public float playerRunningSpeed = 15f;
     public float jumpStrength = 20f;
     public float verticalRotationLimit = 80f;
+    public static int coins = 0;
 
     float forwardMovement;
     float sidewaysMovement;
@@ -23,6 +24,11 @@ public class PlayerMovement : MonoBehaviour {
         cc = GetComponent<CharacterController>();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void CollectCoin()
+    {
+        coins++;
     }
 
     void Update()

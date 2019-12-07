@@ -10,7 +10,10 @@ public class Disappear : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("test2");
-            this.gameObject.SetActive(false);
+            Destroy(gameObject);
+        
         }
+
+        
     }
 }
