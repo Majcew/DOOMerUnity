@@ -8,10 +8,8 @@ public class KeyTeleport : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("test");
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("test2");
             EditorSceneManager.LoadScene(2);
         }
     }

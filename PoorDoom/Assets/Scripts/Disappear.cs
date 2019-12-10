@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class Disappear : MonoBehaviour
 {
+    GameObject player;
+    PlayerMovement coins;
+    private void Awake()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+        coins = player.GetComponent<PlayerMovement>();
+    }
+
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("test");
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("test2");
+            coins.CollectCoin();
             Destroy(gameObject);
         
         }

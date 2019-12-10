@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class OpenDoor : MonoBehaviour
 {
-    void OnTriggerEnter(Collider other)
+    private void Update()
     {
-        if(other.tag == "Player")
+        if (PlayerMovement.coins == 3)
         {
-            if(PlayerMovement.coins ==3)
-            {
-                Destroy(gameObject);
-            }
+            Debug.Log("ołpen");
+            Destroy(gameObject);
         }
     }
 }
