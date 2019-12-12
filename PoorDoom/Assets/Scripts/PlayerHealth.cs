@@ -20,16 +20,10 @@ public class PlayerHealth : MonoBehaviour
         SetHealthText();
     }
 
-    private void SetHealthText()
+    public void SetHealthText()
     {
         healthText.text = "Lives: " + health.ToString();
     }
-
-
-    //void Update()
-    //{
-
-    //}
     public void TakeDamage (float amount)
     {
         damaged = true;

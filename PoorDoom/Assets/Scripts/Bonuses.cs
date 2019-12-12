@@ -10,7 +10,7 @@ public class Bonuses : MonoBehaviour
     [Header("Bonuses Setting")]
     public float bonusHealth = 40f;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.tag == "Player")
         {
@@ -20,10 +20,12 @@ public class Bonuses : MonoBehaviour
                 if (collision.gameObject.GetComponent<PlayerHealth>().health + bonusHealth > collision.gameObject.GetComponent<PlayerHealth>().maxHealth)
                 {
                     collision.gameObject.GetComponent<PlayerHealth>().health = 100f;
+                    collision.gameObject.GetComponent<PlayerHealth>().SetHealthText();
                 }
                 else
                 {
                     collision.gameObject.GetComponent<PlayerHealth>().health += bonusHealth;
+                    collision.gameObject.GetComponent<PlayerHealth>().SetHealthText();
                 }
                 Destroy(this.gameObject);
             }
