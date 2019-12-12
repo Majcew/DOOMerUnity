@@ -21600,6 +21600,18 @@ Transform:
   m_Father: {fileID: 1253211540}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &679327003 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 43788919629969588, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+    type: 3}
+  m_PrefabInstance: {fileID: 317573015}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9157f22d12c6074f39d847896cb3fd16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &681416261
 GameObject:
   m_ObjectHideFlags: 0
@@ -63723,7 +63735,7 @@ PrefabInstance:
         type: 3}
       propertyPath: playerHealth
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 679327003}
     - target: {fileID: 3478108467631069430, guid: be2ceffb6cf24d4589dd72ec160bd360,
         type: 3}
       propertyPath: spawnPoints.Array.data[0]
