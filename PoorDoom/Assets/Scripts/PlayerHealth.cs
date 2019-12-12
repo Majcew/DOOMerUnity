@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public Text healthText;
     public float health;
+    public float maxHealth = 100f;
 
     bool isDead;
     bool damaged;
