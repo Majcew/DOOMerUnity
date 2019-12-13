@@ -12,7 +12,7 @@ public class Shoot : MonoBehaviour
     public float fireRate = 0.1f;
     public float damage = 10f;
     float fireTimer;
-    public AudioSource audio;
+    public AudioSource audiosource;
     public AudioClip shootingsound;
     private void OnEnable()
     {
@@ -46,7 +46,7 @@ public class Shoot : MonoBehaviour
         if (bulletsInMag != 0)
         {
             bulletsInMag--;
-            audio.PlayOneShot(shootingsound);
+            audiosource.PlayOneShot(shootingsound);
             RaycastHit hit;
             if (Physics.Raycast(fpscam.transform.position, fpscam.transform.forward, out hit))
             {

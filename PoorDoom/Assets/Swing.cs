@@ -1,31 +1,14 @@
 ﻿using System;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Swing : MonoBehaviour
 {
-    public Text ammoinmagText;
-    public Text overallammoText;
     public Camera fpscam;
     public float fireRate;
     public float damage;
     float fireTimer;
     public AudioSource audioSource;
     public AudioClip swingSound;
-    private void OnEnable()
-    {
-        HideUIInformations(false);
-    }
-    private void OnDisable()
-    {
-        HideUIInformations(true);
-    }
-    private void HideUIInformations(bool state)
-    {
-        overallammoText.gameObject.SetActive(state);
-        ammoinmagText.gameObject.SetActive(state);
-    }
-
     void Update()
     {
         fireTimer += Time.deltaTime;
