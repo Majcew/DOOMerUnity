@@ -21,11 +21,13 @@ public class Bonuses : MonoBehaviour
                 {
                     collision.gameObject.GetComponent<PlayerHealth>().health = 100f;
                     collision.gameObject.GetComponent<PlayerHealth>().SetHealthText();
+                    collision.gameObject.GetComponent<PlayerHealth>().CheckHP();
                 }
                 else
                 {
                     collision.gameObject.GetComponent<PlayerHealth>().health += bonusHealth;
                     collision.gameObject.GetComponent<PlayerHealth>().SetHealthText();
+                    collision.gameObject.GetComponent<PlayerHealth>().CheckHP();
                 }
                 Destroy(this.gameObject);
             }
