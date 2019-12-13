@@ -11,19 +11,21 @@ public class Shoot : MonoBehaviour
     public int bulletsInMag = 30;
     public Text ammoinmagText;
     public Text overallammoText;
-    //public Transform shootPoint;
     public Camera fpscam;
-    //public ParticleSystem muzzleshot;
     public float fireRate = 0.1f;
     public float damage = 10f;
     float fireTimer;
     public AudioSource audio;
     public AudioClip shootingsound;
-    // Start is called before the first frame update
     void Start()
     {
-        ShowAmmoInMag();
-        ShowAmmoLeft();
+            ShowAmmoInMag();
+            ShowAmmoLeft();
+    }
+    private void OnEnable()
+    {
+            ShowAmmoInMag();
+            ShowAmmoLeft();
     }
 
     private void ShowAmmoLeft()
@@ -34,16 +36,16 @@ public class Shoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        fireTimer += Time.deltaTime;
-        if (Input.GetButton("Fire1") && fireTimer > fireRate)
-        {
-            ShootBullet();
-            fireTimer = 0;
-        }
-        if(Input.GetKey("r") && bulletsInMag < bulletsPerMag)
-        {
-            ReloadMag();
-        }
+            fireTimer += Time.deltaTime;
+            if (Input.GetButton("Fire1") && fireTimer > fireRate)
+            {
+                ShootBullet();
+                fireTimer = 0;
+            }
+            if (Input.GetKey("r") && bulletsInMag < bulletsPerMag)
+            {
+                ReloadMag();
+            }
     }
 
 

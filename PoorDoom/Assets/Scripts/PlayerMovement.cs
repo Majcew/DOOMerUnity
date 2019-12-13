@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour {
         Debug.Log(coins);
     }
 
-    void Update()
+    void LateUpdate()
     {
         //Rozglądanie się na boki
         float horizontalRotation = Input.GetAxis("Mouse X");
