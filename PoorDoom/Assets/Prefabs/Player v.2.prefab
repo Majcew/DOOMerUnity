@@ -1112,28 +1112,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Health: '
---- !u!114 &1391531559026821081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8515173199048989562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4b07aef9d15244429761abcb081a4b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletsPerMag: 0
-  bulletsLeft: 0
-  bulletsInMag: 9999
-  ammoinmagText: {fileID: 7109420923509450374}
-  overallammoText: {fileID: 4464326738992536527}
-  fpscam: {fileID: 3510019809340390700}
-  fireRate: 1
-  damage: 25
-  audio: {fileID: 4159966233957299996}
-  shootingsound: {fileID: 8300000, guid: acae6ae2dfb11a74ca96df86ae1590fd, type: 3}
 --- !u!82 &4159966233957299996
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1230,6 +1208,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &59345674066572966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8515173199048989562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 300e661d08522964ab7973fca5e87703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoinmagText: {fileID: 7109420923509450374}
+  overallammoText: {fileID: 4464326738992536527}
+  fpscam: {fileID: 3510019809340390700}
+  fireRate: 1
+  damage: 25
+  audioSource: {fileID: 4159966233957299996}
+  swingSound: {fileID: 8300000, guid: acae6ae2dfb11a74ca96df86ae1590fd, type: 3}
 --- !u!1001 &8515173199048891866
 PrefabInstance:
   m_ObjectHideFlags: 0

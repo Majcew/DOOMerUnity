@@ -14,11 +14,6 @@ public class Shoot : MonoBehaviour
     float fireTimer;
     public AudioSource audio;
     public AudioClip shootingsound;
-    void Start()
-    {
-            ShowAmmoInMag();
-            ShowAmmoLeft();
-    }
     private void OnEnable()
     {
             ShowAmmoInMag();
