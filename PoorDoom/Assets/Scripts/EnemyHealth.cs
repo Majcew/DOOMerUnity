@@ -39,7 +39,9 @@ public class EnemyHealth : MonoBehaviour
         if(isDead)
             return;
         enemyAudio.Play();
+        anim.SetTrigger("GetHurt");
         currentHealth -= amount;
+        anim.SetTrigger("PlayerOutOfRange");
         //hitParticles.transform.position = hitPoint;
         //hitParticles.Play();
         if(currentHealth <=0){
