@@ -54,6 +54,26 @@ public class ChangeWeapon : MonoBehaviour
         {
             ImportantFunction();
         }
+        else if (Input.GetKeyDown(KeyCode.Alpha3) && !isActive[3])
+        {
+            ImportantFunction();
+            weaponobj[3].SetActive(true);
+            isActive[3] = true;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3) && isActive[3])
+        {
+            ImportantFunction();
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && !isActive[4])
+        {
+            ImportantFunction();
+            weaponobj[4].SetActive(true);
+            isActive[4] = true;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && isActive[4])
+        {
+            ImportantFunction();
+        }
     }
     void ImportantFunction()
     {
