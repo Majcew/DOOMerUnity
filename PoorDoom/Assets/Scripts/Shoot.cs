@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class Shoot : MonoBehaviour
@@ -11,19 +8,16 @@ public class Shoot : MonoBehaviour
     public int bulletsInMag = 30;
     public Text ammoinmagText;
     public Text overallammoText;
-    //public Transform shootPoint;
     public Camera fpscam;
-    //public ParticleSystem muzzleshot;
     public float fireRate = 0.1f;
     public float damage = 10f;
     float fireTimer;
-    public AudioSource audio;
+    public AudioSource audiosource;
     public AudioClip shootingsound;
-    // Start is called before the first frame update
-    void Start()
+    private void OnEnable()
     {
-        ShowAmmoInMag();
-        ShowAmmoLeft();
+            ShowAmmoInMag();
+            ShowAmmoLeft();
     }
 
     private void ShowAmmoLeft()
@@ -34,16 +28,16 @@ public class Shoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        fireTimer += Time.deltaTime;
-        if (Input.GetButton("Fire1") && fireTimer > fireRate)
-        {
-            ShootBullet();
-            fireTimer = 0;
-        }
-        if(Input.GetKey("r") && bulletsInMag < bulletsPerMag)
-        {
-            ReloadMag();
-        }
+            fireTimer += Time.deltaTime;
+            if (Input.GetButton("Fire1") && fireTimer > fireRate)
+            {
+                ShootBullet();
+                fireTimer = 0;
+            }
+            if (Input.GetKey("r") && bulletsInMag < bulletsPerMag)
+            {
+                ReloadMag();
+            }
     }
 
 
@@ -52,7 +46,7 @@ public class Shoot : MonoBehaviour
         if (bulletsInMag != 0)
         {
             bulletsInMag--;
-            audio.PlayOneShot(shootingsound);
+            audiosource.PlayOneShot(shootingsound);
             RaycastHit hit;
             if (Physics.Raycast(fpscam.transform.position, fpscam.transform.forward, out hit))
             {
