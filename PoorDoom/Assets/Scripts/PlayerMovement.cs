@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour {
         Debug.Log(coins);
     }
 
-    void Update()
+    void LateUpdate()
     {
         //Rozglądanie się na boki
         float horizontalRotation = Input.GetAxis("Mouse X");
@@ -53,10 +53,10 @@ public class PlayerMovement : MonoBehaviour {
                 forwardMovement = Input.GetAxis("Vertical") * playerRunningSpeed;
                 sidewaysMovement = Input.GetAxis("Horizontal") * playerRunningSpeed;
             }
-        }
+        }else { verticalVelocity += Physics.gravity.y * Time.deltaTime; }
         // Sprawienie, aby na gracza działała grawitacja
         // A więc, żeby podłoże go przyciągało
-        verticalVelocity += Physics.gravity.y * Time.deltaTime;
+        //verticalVelocity += Physics.gravity.y * Time.deltaTime;
 
         //Skakanie po wciśnięciu przycisku odpowiedzialnego za skok
         if (Input.GetButton("Jump") && cc.isGrounded)
