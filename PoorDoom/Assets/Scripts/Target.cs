@@ -8,6 +8,5 @@ public class Target : MonoBehaviour
     {
         health -= amount;
         if (health <= 0f) { Destroy(gameObject); }
-        
     }
 }

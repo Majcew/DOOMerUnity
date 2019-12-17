@@ -68,8 +68,19 @@ public class PlayerHealth : MonoBehaviour
             isDead = true;
             health = 0;
         }
+        GameOver(isDead);
         SetHealthText();
         CheckHP();
+    }
+
+    [Obsolete]
+    public void GameOver(bool dead)
+    {
+        if(dead == true)
+        {
+            Application.LoadLevel(Application.loadedLevel);
+            Debug.Log("Zginalem");
+        }
     }
 
 
