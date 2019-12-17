@@ -92,6 +92,11 @@ public class Shoot : MonoBehaviour
             ShowAmmoLeft();
         }
     }
+    public void AddAmmoToWeapon(int amount)
+    {
+        bulletsLeft += amount;
+        ShowAmmoLeft();
+    }
 
     private void ShowAmmoInMag()
     {

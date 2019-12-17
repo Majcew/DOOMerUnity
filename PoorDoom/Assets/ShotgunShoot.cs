@@ -9,6 +9,7 @@ public class ShotgunShoot : MonoBehaviour
     public Text ammoinmagText;
     public Text overallammoText;
     public Camera fpscam;
+    public Animation anim;
     public float fireRate;
     public float damage = 10f;
     float fireTimer;
