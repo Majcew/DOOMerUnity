@@ -14,16 +14,20 @@ public class BossMovement : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         playerHealth = player.GetComponent<PlayerHealth>();
         enemyHealth = GetComponent<EnemyHealth>();
-        
+        nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(enemyHealth.currentHealth<enemyHealth.startingHealth)
-            nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
-        if (enemyHealth.currentHealth > 0 && playerHealth.health > 0)
+        
+           
+        if (enemyHealth.currentHealth > 0 && enemyHealth.currentHealth < enemyHealth.startingHealth)
+        {
+            nav.enabled = true;
             nav.SetDestination(player.position);
+        }
+           
         else
         {
             nav.enabled = false;
