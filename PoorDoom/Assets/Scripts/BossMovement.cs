@@ -7,6 +7,7 @@ public class BossMovement : MonoBehaviour
     Transform player;
     PlayerHealth playerHealth;
     EnemyHealth enemyHealth;
+    EnemyAttack enemyAttack;
     UnityEngine.AI.NavMeshAgent nav;
     void Awake()
     {
@@ -15,6 +16,7 @@ public class BossMovement : MonoBehaviour
         playerHealth = player.GetComponent<PlayerHealth>();
         enemyHealth = GetComponent<EnemyHealth>();
         nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        enemyAttack = GetComponent<EnemyAttack>();
     }
 
     // Update is called once per frame
@@ -22,7 +24,7 @@ public class BossMovement : MonoBehaviour
     {
         
            
-        if (enemyHealth.currentHealth > 0 && enemyHealth.currentHealth < enemyHealth.startingHealth)
+        if (enemyHealth.currentHealth > 0 && enemyHealth.currentHealth < enemyHealth.startingHealth || enemyAttack.follow)
         {
             nav.enabled = true;
             nav.SetDestination(player.position);

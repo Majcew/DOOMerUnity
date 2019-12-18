@@ -6,7 +6,8 @@ public class EnemyAttack : MonoBehaviour
 {
     public float timeBetweenAttacks = 0.5f;
     public float attackDamage = 10f;
-
+    public bool follow;
+    
     Animator anim;
     GameObject player;
 
@@ -60,6 +61,7 @@ public class EnemyAttack : MonoBehaviour
 
     void Attack()
     {
+        follow = true;
         timer = 0f;
         //event do zmiany animacji
         anim.SetTrigger("AttackPlayer");
