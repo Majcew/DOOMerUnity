@@ -55,10 +55,18 @@ public class EnemyHealth : MonoBehaviour
 
         //event do zmiany animacji
         anim.SetTrigger("Dead");
+        anim.SetBool("ZoombieDead", true);
         enemyAudio.clip = deathClip;
         enemyAudio.Play();
-        StartSinking();
 
+        StartCoroutine(WaitTimeBeforeDisappear(5));
+
+    }
+
+    IEnumerator WaitTimeBeforeDisappear(int sec)
+    {
+        yield return new WaitForSeconds(sec);
+        StartSinking();
     }
 
     public void StartSinking(){
