@@ -4,35 +4,53 @@ using UnityEngine;
 
 public class BossMovement : MonoBehaviour
 {
-    Transform player;
-    PlayerHealth playerHealth;
-    EnemyHealth enemyHealth;
-    EnemyAttack enemyAttack;
-    UnityEngine.AI.NavMeshAgent nav;
-    void Awake()
+    BossManager mng;
+
+    Transform playerTransform;
+
+    UnityEngine.AI.NavMeshAgent navMesh;
+
+    public bool playerInRange = false;
+
+
+    void OnTriggerEnter(Collider other)
     {
-        //szukanie gracza
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-        playerHealth = player.GetComponent<PlayerHealth>();
-        enemyHealth = GetComponent<EnemyHealth>();
-        nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
-        enemyAttack = GetComponent<EnemyAttack>();
+        if (other.gameObject == mng.player)
+        {
+            playerInRange = true;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerExit(Collider other)
     {
+        if (other.gameObject == mng.player)
+        {
+            playerInRange = false;
+        }
+    }
+
+    void Awake()
+    {
+        mng = GetComponent<BossManager>();
         
-           
-        if (enemyHealth.currentHealth > 0 && enemyHealth.currentHealth < enemyHealth.startingHealth || enemyAttack.follow)
-        {
-            nav.enabled = true;
-            nav.SetDestination(player.position);
-        }
-           
-        else
-        {
-            nav.enabled = false;
-        }
+        playerTransform = mng.player.transform;
+
+        navMesh = GetComponent<UnityEngine.AI.NavMeshAgent>();
+    }
+
+
+    public void goAndFollow()
+    {
+        //Debug.Log("ide");
+        navMesh.enabled = true;
+        navMesh.SetDestination(playerTransform.position);
+        mng.animator.SetBool("Run", true);
+    }
+
+    public void stop()
+    {
+        //Debug.Log("stoje");
+        navMesh.enabled = false;
+        mng.animator.SetBool("Run", false);
     }
 }

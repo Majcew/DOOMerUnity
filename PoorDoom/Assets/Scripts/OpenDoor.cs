@@ -4,7 +4,7 @@ public class OpenDoor : MonoBehaviour
 {
     private void Update()
     {
-        if (PlayerMovement.coins == 3)
+        if (PlayerMovement.coins == 0)
         {
             Debug.Log("ołpen");
             Destroy(gameObject);

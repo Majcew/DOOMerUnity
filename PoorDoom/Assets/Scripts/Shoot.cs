@@ -70,6 +70,12 @@ public class Shoot : MonoBehaviour
                     woodenChestController.TakeDamage(damage);
                 }
 
+                BossHealth bossHealth = hit.transform.GetComponent<BossHealth>();
+                if (bossHealth != null)
+                {
+                    bossHealth.TakeDamage(damage);
+                }
+
             }
             ShowAmmoInMag();
         }

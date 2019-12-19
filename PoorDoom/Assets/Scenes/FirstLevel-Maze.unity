@@ -3164,7 +3164,7 @@ PrefabInstance:
     - target: {fileID: 5395888546351413583, guid: 9f350655e50f37c459d588fc3cf4aebc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5395888546351413583, guid: 9f350655e50f37c459d588fc3cf4aebc,
         type: 3}
@@ -4006,14 +4006,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: 0
@@ -4045,6 +4037,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -4840,7 +4840,7 @@ PrefabInstance:
     - target: {fileID: 5693613837127607365, guid: 116528321df424f499c189c38d2d7d41,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5693613837127607365, guid: 116528321df424f499c189c38d2d7d41,
         type: 3}
@@ -5631,14 +5631,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -5670,6 +5662,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -7292,14 +7292,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -7331,6 +7323,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -9540,7 +9540,7 @@ PrefabInstance:
     - target: {fileID: 5916599199790104017, guid: 9e5772eef8194d3a19efa0f2a9a860e8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5916599199790104017, guid: 9e5772eef8194d3a19efa0f2a9a860e8,
         type: 3}
@@ -13079,22 +13079,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: IntensityLight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: IntensityLight
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -13126,6 +13110,22 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: IntensityLight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: IntensityLight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -13276,7 +13276,7 @@ PrefabInstance:
     - target: {fileID: 8479285827901919808, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8479285827901919808, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
         type: 3}
@@ -16043,14 +16043,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -16082,6 +16074,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -16238,7 +16238,7 @@ PrefabInstance:
     - target: {fileID: 7920740287232673465, guid: f43960e6ba45e4c40a6fc82192cab00d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 7920740287232673465, guid: f43960e6ba45e4c40a6fc82192cab00d,
         type: 3}
@@ -16845,14 +16845,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -16884,6 +16876,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -17414,22 +17414,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: IntensityLight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: IntensityLight
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -17461,6 +17445,22 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: IntensityLight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: IntensityLight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -17888,7 +17888,7 @@ PrefabInstance:
     - target: {fileID: 3510019807600171454, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3510019807600171454, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
@@ -18475,22 +18475,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: IntensityLight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: IntensityLight
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -18522,6 +18506,22 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: IntensityLight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: IntensityLight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -19859,14 +19859,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -19898,6 +19890,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -20746,14 +20746,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -20785,6 +20777,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -21188,22 +21188,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: IntensityLight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: IntensityLight
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -21235,6 +21219,22 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: IntensityLight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: IntensityLight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -21534,7 +21534,7 @@ PrefabInstance:
     - target: {fileID: 379718852739412602, guid: b77808e95afb5da43979d03ae409657b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 379718852739412602, guid: b77808e95afb5da43979d03ae409657b,
         type: 3}
@@ -22695,14 +22695,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -22734,6 +22726,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -23803,7 +23803,7 @@ PrefabInstance:
     - target: {fileID: 3873780593848486226, guid: f9a831747f20f2ceab86cd5662dd8028,
         type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3873780593848486226, guid: f9a831747f20f2ceab86cd5662dd8028,
         type: 3}
@@ -24293,14 +24293,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: 0
@@ -24332,6 +24324,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -25371,7 +25371,7 @@ PrefabInstance:
     - target: {fileID: 8479285827901919808, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8479285827901919808, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
         type: 3}
@@ -28231,14 +28231,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -28270,6 +28262,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -28329,7 +28329,7 @@ PrefabInstance:
     - target: {fileID: 2241614647302858723, guid: 45edd37802134645c88eaa2571a21efd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2241614647302858723, guid: 45edd37802134645c88eaa2571a21efd,
         type: 3}
@@ -28623,14 +28623,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -0.00000011920929
@@ -28662,6 +28654,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -29240,22 +29240,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: IntensityLight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: IntensityLight
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -29287,6 +29271,22 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: IntensityLight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: IntensityLight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -31203,7 +31203,7 @@ PrefabInstance:
     - target: {fileID: 324482127293243394, guid: 008fba8587ada0d4c9e11d61cd212f40,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 324482127293243394, guid: 008fba8587ada0d4c9e11d61cd212f40,
         type: 3}
@@ -35385,14 +35385,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: 1
@@ -35424,6 +35416,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -35570,14 +35570,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: NaN
@@ -35609,6 +35601,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -36529,7 +36529,7 @@ PrefabInstance:
     - target: {fileID: 8479285827901919808, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8479285827901919808, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
         type: 3}
@@ -38014,7 +38014,7 @@ PrefabInstance:
     - target: {fileID: 6493015513787905413, guid: ad38d2b9513a20647861e9816dafdee9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6493015513787905413, guid: ad38d2b9513a20647861e9816dafdee9,
         type: 3}
@@ -39533,7 +39533,7 @@ PrefabInstance:
     - target: {fileID: 8479285827901919808, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 8479285827901919808, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
         type: 3}
@@ -42355,7 +42355,7 @@ PrefabInstance:
     - target: {fileID: 6098382383878936999, guid: e51bcc3bc29ee7e40b0adaa3364decf6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6098382383878936999, guid: e51bcc3bc29ee7e40b0adaa3364decf6,
         type: 3}
@@ -43414,7 +43414,7 @@ PrefabInstance:
     - target: {fileID: 6493015513787905413, guid: ad38d2b9513a20647861e9816dafdee9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6493015513787905413, guid: ad38d2b9513a20647861e9816dafdee9,
         type: 3}
@@ -43816,14 +43816,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: 0
@@ -43855,6 +43847,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -44834,7 +44834,7 @@ PrefabInstance:
     - target: {fileID: 1571497544900012173, guid: 13cb3a28eec348a4d907cc08b4b9ed9a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1571497544900012173, guid: 13cb3a28eec348a4d907cc08b4b9ed9a,
         type: 3}
@@ -46813,14 +46813,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: 0
@@ -46852,6 +46844,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -46997,22 +46997,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: IntensityLight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: IntensityLight
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -47044,6 +47028,22 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: IntensityLight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: IntensityLight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -51927,14 +51927,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -0.00000011920929
@@ -51966,6 +51958,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -52078,14 +52078,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -52117,6 +52109,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -53167,7 +53167,7 @@ PrefabInstance:
     - target: {fileID: 3873780593848486226, guid: f9a831747f20f2ceab86cd5662dd8028,
         type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 3873780593848486226, guid: f9a831747f20f2ceab86cd5662dd8028,
         type: 3}
@@ -54452,14 +54452,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -54491,6 +54483,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -55373,14 +55373,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -55412,6 +55404,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -56920,7 +56920,7 @@ PrefabInstance:
     - target: {fileID: 3873780593848486226, guid: f9a831747f20f2ceab86cd5662dd8028,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 3873780593848486226, guid: f9a831747f20f2ceab86cd5662dd8028,
         type: 3}
@@ -57220,7 +57220,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1933280636
 GameObject:
@@ -59594,14 +59594,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -59633,6 +59625,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -60630,7 +60630,7 @@ PrefabInstance:
     - target: {fileID: 5916599199790104017, guid: 9e5772eef8194d3a19efa0f2a9a860e8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5916599199790104017, guid: 9e5772eef8194d3a19efa0f2a9a860e8,
         type: 3}
@@ -62003,14 +62003,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
-      propertyPath: MaxLightIntensity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: -1
@@ -62042,6 +62034,14 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
+      propertyPath: MaxLightIntensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
@@ -63355,7 +63355,7 @@ PrefabInstance:
     - target: {fileID: 7920740287232673465, guid: f43960e6ba45e4c40a6fc82192cab00d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 7920740287232673465, guid: f43960e6ba45e4c40a6fc82192cab00d,
         type: 3}
@@ -63516,6 +63516,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5863157606114833602, guid: 4492b8cc7f5c51f4c8d6a5ae8b8270e6,
+        type: 3}
+      propertyPath: startingHealth
+      value: 400
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4492b8cc7f5c51f4c8d6a5ae8b8270e6, type: 3}
 --- !u!1001 &1055314321599773206
@@ -63568,7 +63573,7 @@ PrefabInstance:
     - target: {fileID: 1055314321052887206, guid: caa9a7e04903ed41e816a13e6a623d05,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1055314321052887206, guid: caa9a7e04903ed41e816a13e6a623d05,
         type: 3}
@@ -63584,6 +63589,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1055314321052887228, guid: caa9a7e04903ed41e816a13e6a623d05,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caa9a7e04903ed41e816a13e6a623d05, type: 3}
@@ -63642,7 +63652,7 @@ PrefabInstance:
     - target: {fileID: 6493015513787905413, guid: ad38d2b9513a20647861e9816dafdee9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 6493015513787905413, guid: ad38d2b9513a20647861e9816dafdee9,
         type: 3}
@@ -64120,7 +64130,7 @@ PrefabInstance:
     - target: {fileID: 3478108467631069431, guid: be2ceffb6cf24d4589dd72ec160bd360,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 3478108467631069431, guid: be2ceffb6cf24d4589dd72ec160bd360,
         type: 3}
@@ -64172,6 +64182,11 @@ PrefabInstance:
       propertyPath: spawnPoints.Array.data[3]
       value: 
       objectReference: {fileID: 1640899470}
+    - target: {fileID: 3478108467631069430, guid: be2ceffb6cf24d4589dd72ec160bd360,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be2ceffb6cf24d4589dd72ec160bd360, type: 3}
 --- !u!1001 &3873780594098434213
@@ -64224,7 +64239,7 @@ PrefabInstance:
     - target: {fileID: 3873780593848486226, guid: f9a831747f20f2ceab86cd5662dd8028,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 3873780593848486226, guid: f9a831747f20f2ceab86cd5662dd8028,
         type: 3}
@@ -64298,7 +64313,7 @@ PrefabInstance:
     - target: {fileID: 8479285827901919808, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8479285827901919808, guid: b30ec55fa42e7ed4697c45f4efe6b72f,
         type: 3}

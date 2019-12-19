@@ -12,14 +12,14 @@ public class EnemyAttack : MonoBehaviour
     GameObject player;
 
     PlayerHealth playerHealth;
-    EnemyHealth enemyHealth;
+    BossHealth enemyHealth;
     bool playerInRange;
     float timer;
     void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         playerHealth = player.GetComponent<PlayerHealth>();
-        enemyHealth = GetComponent<EnemyHealth>();
+        enemyHealth = GetComponent<BossHealth>();
         anim = GetComponent<Animator>();
     }
 
@@ -36,7 +36,7 @@ public class EnemyAttack : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
         //sprawdzenie czy gracz nie uciekł
-        if(other.gameObject == player)
+        if(other.gameObject == player && enemyHealth.currentHealth > 0)
         {
             playerInRange = false;
             //event do zmiany animacji
