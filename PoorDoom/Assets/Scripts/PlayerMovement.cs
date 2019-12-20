@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour {
     public float playerRunningSpeed = 15f;
     public float jumpStrength = 20f;
     public float verticalRotationLimit = 80f;
-    public static int coins = 0;
+    public DiamondCollector diamonds;
 
     float forwardMovement;
     float sidewaysMovement;
@@ -22,12 +22,13 @@ public class PlayerMovement : MonoBehaviour {
         cc = GetComponent<CharacterController>();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        diamonds = GetComponent<DiamondCollector>();
     }
 
     public void CollectCoin()
     {
-        coins++;
-        Debug.Log(coins);
+        diamonds.AddDiamond();
+        Debug.Log(diamonds.GetDiamondsAmount());
     }
 
     void LateUpdate()

@@ -7,11 +7,13 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     public Text healthText;
+    public Text healthTextNumber;
     private PlayerMovement playerspeeds;
     private float originalWalkingSpeed;
     private float originalRunningSpeed;
     public float health;
     public float maxHealth = 100f;
+    public Slider healthSlider;
 
     bool isDead;
     bool damaged;
@@ -57,7 +59,9 @@ public class PlayerHealth : MonoBehaviour
 
     public void SetHealthText()
     {
-        healthText.text = "Lives: " + health.ToString();
+        //healthText.text = "Lives: " + health.ToString();
+        healthTextNumber.text = health.ToString();
+        healthSlider.value = health;
     }
     public void TakeDamage (float amount)
     {
