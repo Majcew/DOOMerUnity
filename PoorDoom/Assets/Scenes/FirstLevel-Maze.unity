@@ -17825,6 +17825,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player v.2
       objectReference: {fileID: 0}
+    - target: {fileID: 5364492256090296110, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+        type: 3}
+      propertyPath: diamondsAmountText
+      value: 
+      objectReference: {fileID: 879762602}
+    - target: {fileID: 5364492256090296110, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+        type: 3}
+      propertyPath: allDiamondsTaken
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 43788919629969588, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
       propertyPath: healthSlider
@@ -18106,6 +18116,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5804738531127357536, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 111.680176
+      objectReference: {fileID: 0}
     - target: {fileID: 8242146276223939078, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -18134,7 +18149,12 @@ PrefabInstance:
     - target: {fileID: 4602646608948793576, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 31.910034
+      value: 31.910156
+      objectReference: {fileID: 0}
+    - target: {fileID: 4602646608948793576, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -57.120117
       objectReference: {fileID: 0}
     - target: {fileID: 1038571904026750089, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
@@ -18151,11 +18171,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 5364492256090296110, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+    - target: {fileID: 3718087322558673853, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
-      propertyPath: diamondsAmountText
-      value: 
-      objectReference: {fileID: 879762602}
+      propertyPath: m_AnchoredPosition.y
+      value: 39.024902
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30ec0573d2a2c5846af1a1ef5337a475, type: 3}
 --- !u!1 &565988716
@@ -23986,7 +24006,7 @@ PrefabInstance:
     - target: {fileID: 2341796386500409995, guid: 4492b8cc7f5c51f4c8d6a5ae8b8270e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.545
+      value: 8.27
       objectReference: {fileID: 0}
     - target: {fileID: 2341796386500409995, guid: 4492b8cc7f5c51f4c8d6a5ae8b8270e6,
         type: 3}
@@ -53395,7 +53415,7 @@ PrefabInstance:
     - target: {fileID: 3873780593848486226, guid: f9a831747f20f2ceab86cd5662dd8028,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.28
+      value: 5.086
       objectReference: {fileID: 0}
     - target: {fileID: 3873780593848486226, guid: f9a831747f20f2ceab86cd5662dd8028,
         type: 3}
