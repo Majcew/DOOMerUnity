@@ -2644,7 +2644,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 564342186}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1004847152}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6767abfe7b1b24332b50b0a64535aa47, type: 3}
@@ -7888,6 +7888,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 7526813973953405231, guid: f43960e6ba45e4c40a6fc82192cab00d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6165007866275025891, guid: f43960e6ba45e4c40a6fc82192cab00d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8710,7 +8715,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 564342186}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1004847152}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9157f22d12c6074f39d847896cb3fd16, type: 3}
@@ -17833,7 +17838,7 @@ PrefabInstance:
     - target: {fileID: 5364492256090296110, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
       propertyPath: allDiamondsTaken
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 43788919629969588, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
@@ -21243,6 +21248,54 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40289eaa92b3e194d919bc22ebe69789, type: 3}
+--- !u!1 &660974810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 660974812}
+  - component: {fileID: 660974811}
+  m_Layer: 0
+  m_Name: CloseDoorScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &660974811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660974810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1590bf6858a944479ad65835ca7b746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diamondCollector: {fileID: 104450659}
+  player: {fileID: 1004847152}
+  pm: {fileID: 1004847156}
+  door: {fileID: 1257828382}
+  boss: {fileID: 1372731583}
+--- !u!4 &660974812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660974810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2563661, y: 0.010115564, z: -6.545461}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 42
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &662315787
 GameObject:
   m_ObjectHideFlags: 0
@@ -30949,6 +31002,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001936893}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1004847152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3510019807600171393, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+    type: 3}
+  m_PrefabInstance: {fileID: 564342186}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1004847156 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3510019807600171392, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+    type: 3}
+  m_PrefabInstance: {fileID: 564342186}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004847152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 583d56d1ea8c54343b40fd2ec6133494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1006682156
 GameObject:
   m_ObjectHideFlags: 0
@@ -37723,6 +37794,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215874860}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1223308841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1223308843}
+  - component: {fileID: 1223308842}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: FloorToBossRoom
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1223308842
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223308841}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 1.2, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1223308843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223308841}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.669, y: 0.542, z: -6.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 41
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1229690208
 GameObject:
   m_ObjectHideFlags: 0
@@ -38265,7 +38380,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diamondCollector: {fileID: 104450659}
-  player: {fileID: 0}
+  player: {fileID: 1004847152}
+  pm: {fileID: 1004847156}
+  door: {fileID: 1257828382}
 --- !u!1001 &1260429389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41842,6 +41959,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371141028}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1372731583 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4813567087029532381, guid: 4492b8cc7f5c51f4c8d6a5ae8b8270e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 750089270}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9580849bfeb014204bc7d0c41ee0c07c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1372794621
 GameObject:
   m_ObjectHideFlags: 0

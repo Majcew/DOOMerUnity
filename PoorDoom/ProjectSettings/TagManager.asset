@@ -6,6 +6,7 @@ TagManager:
   tags:
   - doorToBoss
   - coins
+  - FloorToBossRoom
   layers:
   - Default
   - TransparentFX

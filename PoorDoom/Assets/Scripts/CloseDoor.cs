@@ -1,11 +1,14 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class OpenDoor : MonoBehaviour
+public class CloseDoor : MonoBehaviour
 {
     public DiamondCollector diamondCollector;
     public GameObject player;
     public PlayerMovement pm;
     public GameObject door;
+    public BossManager boss;
 
     private void Awake()
     {
@@ -16,11 +19,11 @@ public class OpenDoor : MonoBehaviour
 
     private void Update()
     {
-        if (diamondCollector.allDiamondsTaken == true && pm.inBossRoom==false)
+
+        if (pm.inBossRoom == true)
         {
-            Debug.Log("ołpen");
-            door.SetActive(false);
-            //Destroy(gameObject);
+            door.SetActive(true);
+            boss.startFollow = true;
         }
 
     }

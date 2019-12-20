@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour {
     public float jumpStrength = 20f;
     public float verticalRotationLimit = 80f;
     public DiamondCollector diamonds;
+    public bool inBossRoom = false;
 
     float forwardMovement;
     float sidewaysMovement;
@@ -16,6 +17,15 @@ public class PlayerMovement : MonoBehaviour {
 
     float verticalRotation = 0;
     CharacterController cc;
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "FloorToBossRoom")
+        {
+            inBossRoom = true;
+            Debug.Log("Player in Boss Room");
+        }
+    }
 
     void Awake()
     {
