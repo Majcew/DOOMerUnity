@@ -7,6 +7,9 @@ TagManager:
   - doorToBoss
   - coins
   - FloorToBossRoom
+  - ak47
+  - revolver
+  - shotgun
   layers:
   - Default
   - TransparentFX

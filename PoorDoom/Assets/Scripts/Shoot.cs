@@ -1,40 +1,59 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 public class Shoot : MonoBehaviour
 {
-    public int bulletsPerMag = 30;
-    public int bulletsLeft = 120;
-    public int bulletsInMag = 30;
-    public Text ammoinmagText;
-    public Text overallammoText;
+    private int id;
     public Camera fpscam;
     public float fireRate = 0.1f;
     public float damage = 10f;
     float fireTimer;
+    private Ammunition ammoInfo;
     public AudioSource audiosource;
     public AudioClip shootingsound;
+    private void Awake()
+    {
+        ammoInfo = GetComponentInParent<Ammunition>();
+        id = GetCurrentId();
+    }
     private void OnEnable()
     {
-            ShowAmmoInMag();
-            ShowAmmoLeft();
+        id = GetCurrentId();
+        ShowAmmoInMag();
+        ShowAmmoLeft();
+    }
+    private int GetCurrentId()
+    {
+        switch(gameObject.tag)
+        {
+            case "ak47":
+                id = 0;
+                break;
+            case "revolver":
+                id = 1;
+                break;
+            case "shotgun":
+                id = 2;
+                break;
+            default:
+                id = -1;
+                break;
+        }
+        return id;
     }
 
     private void ShowAmmoLeft()
     {
-        overallammoText.text = bulletsLeft.ToString();
+        ammoInfo.ShowAmmoLeft(id);
     }
-
-    // Update is called once per frame
     void Update()
     {
-            fireTimer += Time.deltaTime;
+        fireTimer += Time.deltaTime;
             if (Input.GetButton("Fire1") && fireTimer > fireRate)
             {
                 ShootBullet();
                 fireTimer = 0;
             }
-            if (Input.GetKey("r") && bulletsInMag < bulletsPerMag)
+            if (Input.GetKey("r") && ammoInfo.bulletsInMag[id] < ammoInfo.bulletsPerMag[id])
             {
                 ReloadMag();
             }
@@ -43,9 +62,9 @@ public class Shoot : MonoBehaviour
 
     private void ShootBullet()
     {
-        if (bulletsInMag != 0)
+        if (ammoInfo.bulletsInMag[id] != 0)
         {
-            bulletsInMag--;
+            ammoInfo.bulletsInMag[id]--;
             audiosource.PlayOneShot(shootingsound);
             RaycastHit hit;
             if (Physics.Raycast(fpscam.transform.position, fpscam.transform.forward, out hit))
@@ -82,18 +101,18 @@ public class Shoot : MonoBehaviour
     }
     private void ReloadMag()
     {
-        int amountToReload = bulletsPerMag - bulletsInMag;
-        if (bulletsLeft <= amountToReload && bulletsLeft != 0)
+        int amountToReload = ammoInfo.bulletsPerMag[id] - ammoInfo.bulletsInMag[id];
+        if (ammoInfo.bulletsLeft[id] <= amountToReload && ammoInfo.bulletsLeft[id] != 0)
         {
-            bulletsInMag += bulletsLeft;
-            bulletsLeft = 0;
+            ammoInfo.bulletsInMag[id] += ammoInfo.bulletsLeft[id];
+            ammoInfo.bulletsLeft[id] = 0;
             ShowAmmoInMag();
             ShowAmmoLeft();
         }
-        else if(bulletsLeft!=0)
+        else if(ammoInfo.bulletsLeft[id] != 0)
         {
-            bulletsInMag += amountToReload;
-            bulletsLeft -= amountToReload;
+            ammoInfo.bulletsInMag[id] += amountToReload;
+            ammoInfo.bulletsLeft[id] -= amountToReload;
             ShowAmmoInMag();
             ShowAmmoLeft();
         }
@@ -101,6 +120,6 @@ public class Shoot : MonoBehaviour
 
     private void ShowAmmoInMag()
     {
-        ammoinmagText.text = bulletsInMag.ToString() + "/";
+        ammoInfo.ShowAmmoInMag(id);
     }
 }

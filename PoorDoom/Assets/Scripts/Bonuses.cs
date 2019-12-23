@@ -10,7 +10,8 @@ public class Bonuses : MonoBehaviour
 
     [Header("Bonuses Setting")]
     public float bonusHealth = 40f;
-    public float bonusAmmo = 30f;
+    public int bonusAmmo = 30;
+
 
     private void OnTriggerEnter(Collider collision)
     {
@@ -41,7 +42,7 @@ public class Bonuses : MonoBehaviour
             }
             if(isAmmo == true)
             {
-
+                GetComponentInParent<Ammunition>().AddAmmunition(0,bonusAmmo);
             }
             
         }

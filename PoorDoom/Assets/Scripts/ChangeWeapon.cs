@@ -30,19 +30,11 @@ public class ChangeWeapon : MonoBehaviour
             weaponobj[0].SetActive(true);
             isActive[0] = true;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha1) && isActive[0])
-        {
-            ImportantFunction();
-        }
         else if (Input.GetKeyDown(KeyCode.Alpha2) && !isActive[1])
         {
             ImportantFunction();
             weaponobj[1].SetActive(true);
             isActive[1] = true;
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2) && isActive[1])
-        {
-            ImportantFunction();
         }
         else if (Input.GetKeyDown(KeyCode.Alpha0) && !isActive[2])
         {
@@ -50,29 +42,17 @@ public class ChangeWeapon : MonoBehaviour
             weaponobj[2].SetActive(true);
             isActive[2] = true;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha0) && isActive[2])
-        {
-            ImportantFunction();
-        }
         else if (Input.GetKeyDown(KeyCode.Alpha3) && !isActive[3])
         {
             ImportantFunction();
             weaponobj[3].SetActive(true);
             isActive[3] = true;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3) && isActive[3])
-        {
-            ImportantFunction();
-        }
         else if (Input.GetKeyDown(KeyCode.Alpha4) && !isActive[4])
         {
             ImportantFunction();
             weaponobj[4].SetActive(true);
             isActive[4] = true;
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && isActive[4])
-        {
-            ImportantFunction();
         }
     }
     void ImportantFunction()
