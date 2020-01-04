@@ -52,7 +52,8 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
-        health = 100f;
+        // health = 100f;
+        health = maxHealth;
 
         SetHealthText();
     }
