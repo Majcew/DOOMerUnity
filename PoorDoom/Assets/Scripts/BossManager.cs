@@ -37,7 +37,7 @@ public class BossManager : MonoBehaviour
 
         if(startFollow == true && bossHealth.isDead == false)
         {
-            if (bossMovement.playerInRange == true) // zmieniam false na true
+            if (bossMovement.playerInRange == false)
             {
                 bossMovement.goAndFollow();
             }

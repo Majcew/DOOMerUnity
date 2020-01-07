@@ -17838,7 +17838,7 @@ PrefabInstance:
     - target: {fileID: 5364492256090296110, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
       propertyPath: allDiamondsTaken
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 43788919629969588, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
@@ -24145,7 +24145,7 @@ PrefabInstance:
     - target: {fileID: 4813567087029532381, guid: 4492b8cc7f5c51f4c8d6a5ae8b8270e6,
         type: 3}
       propertyPath: startFollow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4492b8cc7f5c51f4c8d6a5ae8b8270e6, type: 3}
