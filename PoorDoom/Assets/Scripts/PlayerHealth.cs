@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
@@ -83,8 +84,9 @@ public class PlayerHealth : MonoBehaviour
     {
         if(dead == true)
         {
-            Application.LoadLevel(Application.loadedLevel);
+            //Application.LoadLevel(Application.loadedLevel);
             Debug.Log("Zginalem");
+            SceneManager.LoadScene(3);
         }
     }
 
