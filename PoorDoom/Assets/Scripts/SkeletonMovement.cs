@@ -10,7 +10,7 @@ public class SkeletonMovement : MonoBehaviour
     UnityEngine.AI.NavMeshAgent nav;
     Animator anim;
     
-    public float maximumLookDistance = 200;
+    public float maximumLookDistance = 70;
     
     void Start()
     {
