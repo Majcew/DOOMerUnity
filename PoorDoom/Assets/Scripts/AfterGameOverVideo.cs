@@ -15,5 +15,7 @@ public class AfterGameOverVideo : MonoBehaviour
     {
         yield return new WaitForSeconds(value);
         SceneManager.LoadScene(0);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 }

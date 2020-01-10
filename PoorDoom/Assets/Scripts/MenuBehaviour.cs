@@ -9,6 +9,12 @@ public class MenuBehaviour : MonoBehaviour
     {
         EditorSceneManager.LoadScene(EditorSceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void Options()
+    {
+        Debug.Log("Options");
+    }
+
     public void EndGame()
     {
         Debug.Log("Let's see if it quits");

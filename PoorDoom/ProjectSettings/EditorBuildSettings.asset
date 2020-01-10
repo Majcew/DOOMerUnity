@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/FirstLevel-Maze.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/SecondLevel-OpenArea.unity
-    guid: 674d67f74667e0749a3267f9c963ebcd
+    path: Assets/Scenes/SecondLevel.unity
+    guid: 859a176adad7da14b9939a699b988c9a
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 50518e406a905ab43b95f6f3f5008fcd
