@@ -18,6 +18,7 @@ public class Bonuses : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             
+            
             if (isHealth == true)
             {
                 if (collision.gameObject.GetComponent<PlayerHealth>().health == collision.gameObject.GetComponent<PlayerHealth>().maxHealth)
