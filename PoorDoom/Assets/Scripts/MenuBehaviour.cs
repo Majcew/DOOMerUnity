@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class MenuBehaviour : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class MenuBehaviour : MonoBehaviour
     public void Options()
     {
         Debug.Log("Options");
+        SceneManager.LoadScene(5);
     }
 
     public void EndGame()
