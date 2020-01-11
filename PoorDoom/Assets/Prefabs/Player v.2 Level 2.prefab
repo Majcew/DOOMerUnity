@@ -250,30 +250,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3510019807736399387, guid: 30ec0573d2a2c5846af1a1ef5337a475,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3510019809340390700, guid: 30ec0573d2a2c5846af1a1ef5337a475,
-        type: 3}
-      propertyPath: far clip plane
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3510019809340390700, guid: 30ec0573d2a2c5846af1a1ef5337a475,
-        type: 3}
-      propertyPath: near clip plane
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 3510019809340390700, guid: 30ec0573d2a2c5846af1a1ef5337a475,
-        type: 3}
-      propertyPath: m_OcclusionCulling
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5364492256090296110, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
       propertyPath: AmountOfAllDiamonds
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3510019807736399387, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5275839917338356114, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
@@ -289,6 +274,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6236521188378412303, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+        type: 3}
+      propertyPath: IntensityLight
+      value: 1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6236521188378412303, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+        type: 3}
+      propertyPath: MaxLightIntensity
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3510019809340390700, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+        type: 3}
+      propertyPath: far clip plane
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3510019809340390700, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3510019809340390700, guid: 30ec0573d2a2c5846af1a1ef5337a475,
+        type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3510019807772676260, guid: 30ec0573d2a2c5846af1a1ef5337a475,
         type: 3}
