@@ -26,7 +26,7 @@ public class SkeletonMovement : MonoBehaviour
     void Update()
     {
         var distance = Vector3.Distance(player.position, transform.position);
-        Debug.Log(distance.ToString());
+        //Debug.Log(distance.ToString());
        
         if (enemyHealth.currentHealth > 0 && playerHealth.health > 0 && distance < maximumLookDistance)
         {
