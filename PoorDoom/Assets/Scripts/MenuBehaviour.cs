@@ -13,13 +13,16 @@ public class MenuBehaviour : MonoBehaviour
 
     public void Options()
     {
-        Debug.Log("Options");
         SceneManager.LoadScene(5);
+    }
+
+    public void Authors()
+    {
+        SceneManager.LoadScene(6);
     }
 
     public void EndGame()
     {
-        Debug.Log("Let's see if it quits");
         Application.Quit();
     }
 }
