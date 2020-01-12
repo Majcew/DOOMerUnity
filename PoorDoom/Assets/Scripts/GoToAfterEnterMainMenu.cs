@@ -11,6 +11,8 @@ public class GoToAfterEnterMainMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return))
         {
             SceneManager.LoadScene(0);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }
