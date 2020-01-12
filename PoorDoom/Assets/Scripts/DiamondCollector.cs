@@ -12,7 +12,8 @@ public class DiamondCollector : MonoBehaviour
 
     private void Awake()
     {
-
+        diamondsAmount = 0;
+        allDiamondsTaken = false;
     }
 
     public int GetDiamondsAmount()
